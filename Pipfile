@@ -1,0 +1,35 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "3.10"
+
+[dev-packages]
+ipython = "*"
+jupyter = "*"
+jupyterlab = "*"
+pytest = "*"
+nbmake = "*"
+ipykernel = "*"
+
+[packages]
+scipy = "*"
+numpy = "*"
+pandas = "*"
+statsmodels = "*"
+scikit-learn = "*"
+matplotlib = "*"
+seaborn = "*"
+plotly = "*"
+kaleido = "*"
+nbconvert = "*"
+ipykernel = "*"
+nltk = "*"
+fold-to-ascii = "*"
+sentence-transformers = "*"
+hdbscan = "*"
+ipywidgets = "*"
+hyperopt = "*"
+umap-learn = "*"
